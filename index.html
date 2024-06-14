@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Pizza Assignment 2">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Assignment 2 Pizza shop</title>
+
+    <!--fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!--add our CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+<!-- add our header -->
+<header>
+    <!-- logo container -->
+    <div>
+        <a href="index.html"><img src="./img/pizza-emoji.256x256.png" alt="header logo"></a>
+    </div>
+    <!-- site navigation -->
+    <nav>
+        <menu>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Content</a></li>
+        </menu>
+    </nav>
+    </header>
+<section class="lesson-masthead">
+    <h1>Assignment 2 Pizza shop</h1>
+</section>
+<!--flex container-->
+<div class="flex-content-container">
+<main>
+    <section>
+    <div>
+    <form action="index.html" method="post" enctype="multipart/form-data">
+        <!-- order form-->
+        <h2>Order</h2>
+        <!--quick order-->
+        <label>Quick select</label>
+        <br>
+        <input type="radio" id="Pep" name="fav_lang" value="HTML">
+        <label FOR="Pep">Pepperoni</label>
+        <br>
+        <input type="radio" id="Che" name="fav_lang" value="HTML">
+        <label FOR="Che">Cheese</label>
+        <br>
+        <input type="radio" id="veg" name="fav_lang" value="HTML">
+        <label FOR="veg">veggie</label>
+        <br>
+        <input type="radio" id="Custom" name="fav_lang" value="HTML">
+        <label FOR="Custom">Custom</label>
+        <br>
+        <!--Topings order-->
+        <label>Custom Topings</label>
+        <br>
+        <input type="checkbox" id="choice1" name="choice1" value="choice1">
+        <label for="choice1">Pepperoni</label>
+        <br>
+        <input type="checkbox" id="choice2" name="choice2" value="choice2">
+        <label for="choice2">Cheese</label>
+        <br>
+        <input type="checkbox" id="choice3" name="choice3" value="choice3">
+        <label for="choice3">Black olives</label>
+        <br>
+        <input type="checkbox" id="choice4" name="choice4" value="choice4">
+        <label for="choice4">Mushroom</label>
+        <br>
+        <input type="checkbox" id="choice5" name="choice5" value="choice5">
+        <label for="choice5">Anchovies</label>
+        <br>
+        <!--size-->
+            <label>Size</label>
+            <br>
+        <input type="radio" id="choice6" name="choice6" value="choice6">
+            <label for="choice6">Small</label>
+            <br>
+            <input type="radio" id="choice7" name="choice6" value="choice6">
+            <label for="choice7">Meaduma</label>
+            <br>
+            <input type="radio" id="choice8" name="choice6" value="choice6">
+            <label for="choice8">Large</label>
+            <br>
+            <input type="radio" id="choice9" name="choice6" value="choice6">
+            <label for="choice9">EX Large</label>
+            <br>
+        <!--how many pizza -->
+             <label>How May Pizzas Max Order 10:</label>
+            <br>
+        <!--costmer info-->
+             <input type="number" name="quantity" min="1" max="10">
+                <br>
+             <input type="text" name="name (required)" placeholder="Your Name">
+            <input type="tel" name="phone" placeholder="Phone Number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+             <input type="email" name="email" placeholder="Your Email">
+             <textarea placeholder="Your Message"></textarea>
+            <input type="submit" value="Send">
+
+            </form>
+         </div>
+    </section>
+</main>
+    <!--sidebar-->
+    <aside>
+        <article>
+            <h2>store</h2>
+            <figure>
+                <img src="./img/store.jpg" alt="image four">
+                <figcaption>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda at illum inventore maxime natus tempore?</figcaption>
+            </figure>
+        </article>
+    </aside>
+</div>
+<!--add footer -->
+<footer>
+
+    <div>
+        <h6>Footer Title</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci amet cum dolores ea exercitationem facilis , hic molestias natus odio perspiciatis quod reiciendis rerum, sed, sequi ullam veniam veritatis vitae. Commodi corporis culpa cum eligendi minima nisi perspiciatis quos, velit voluptatem? Amet aperiam, dolores error exercitationem provident saepe tempore voluptatibus voluptatum.</p>
+    </div>
+</footer>
+</body>
+
+</html>

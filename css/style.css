@@ -1,0 +1,148 @@
+body{
+    margin: 0px;
+    background-color: #ff7700;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Poppins", sans-serif;
+}
+p,a,li,figcaption{
+    font-family: "Roboto",sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+/** layout **/
+
+/** header **/
+header{
+    display: flex;
+    align-items: center;
+    height: 256px;
+    background-color: #b30909;
+
+}
+header > div{
+    flex-grow: 1;
+    height: 145px;
+    width: auto;
+
+}
+header > div > a > img{
+    width: auto;
+    height: 100%;
+}
+header > nav > menu{
+    list-style: none;
+    display: flex;
+    padding-left: 0px;
+    margin: 0px;
+}
+header > nav > menu > li{
+    padding: 0 10px;
+}
+header > nav > menu > li > a{
+    color: #0e0e0e;
+}
+/** masthead **/
+.lesson-masthead{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: hero;
+    background-image:url('/img/pizza-head.jpg') ;
+    height: 100vh;
+}
+.lesson-masthead h1{
+    color: #f8f8f8;
+    font-size: 58px;
+}
+/** main content container (the div that holds the main and aside) **/
+.flex-content-container{
+    display: flex;
+}
+/** main **/
+main{
+    width: 75%;
+}
+main > section{
+    display: flex;
+    padding: 2%;
+    align-items: center;
+}
+main > section > div{
+    width: 50%;
+    padding: 10px;
+}
+main > section >div >form{
+    width: 100%;
+}
+main > section > div > form >input[type="text"],
+main > section > div > form >input[type="email"],
+main > section > div > form >input[type="password"],
+main > section > div > form >input[type="tel"],
+main > section > div > form >input[type="number"],
+main > section > div > form >textarea
+{
+    border:solid 2px #0e0e0e;
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 10px 5px;
+}
+
+main > section > div > form >input[type="submit"]{
+    border: solid 2px #0e0e0e;
+    background-color:#b30909;
+    color: #f8f8f8;
+    padding: 10px 35px;
+    font-size: 20px;
+main > section > div > img{
+    width: 100%;
+    height: auto;
+}
+/** aside **/
+aside{
+    width: 25%;
+    float: right;
+
+}
+aside > article{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+    aside > article > img{
+        width: 100%;
+        margin-top: 25px;
+    }
+
+/** footer **/
+    footer{
+        display: flex;
+        align-items: center;
+    }
+    footer > div{
+        width: 25%;
+    }
+    footer > div > a > img{
+        width: auto;
+        height: 250px;
+    }
+    footer > div + div{
+        width: 50%;
+    }
+    footer > div + div + div{
+        width: 25%;
+    }
+    footer > div + div + div > form{
+        width: 90%;
+        height: auto;
+    }
+    footer > div + div + div > form > p{
+        width: 100%;
+        height: auto;
+    }
+    footer > div + div + div > form > p > input{
+        width: 100%;
+        height: auto;
+    }
+
+}
